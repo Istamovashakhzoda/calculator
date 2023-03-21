@@ -1,0 +1,53 @@
+/* .calc{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+input{
+  height: 20px;
+  color: black;
+}
+button{
+  height: 20px;
+  color: black;
+} */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: yellow;
+}
+
+.calc{
+  background-color: white;
+  margin: 100px  0 0 430px;
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 100px;
+  padding-left: 26px;
+  font-size: 30px;
+}
+
+input{
+  color: black;
+  width: 125px;
+  height: 30px;
+  font-size: 20px;
+}
+
+button{
+  color: black;
+  background-color:lightcoral;
+  border: none;
+  width: 190px;
+  font-size: 19px;
+  height: 30px;
+}
